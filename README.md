@@ -21,4 +21,4 @@ Furthermore **service times** are provided in HAProxy logs so it is possible to 
 this project is mainly based on the functionality of **"grep"** commands & subcommands to take out HTTP status & timers and log levels
 
 A sample output of this script :
-![Output](img/ouput.png)
+![Output](img/ouput.jpeg)
