@@ -9,15 +9,16 @@ Termination status of a session and the ability to track where failures are occu
 
 *<h3> HAProxy Log Format: </h3>*
 The type of logging you’ll see is determined by the proxy mode that you set within HAProxy. HAProxy can operate either as a Layer 4 (TCP) proxy or as Layer 7 (HTTP) proxy. TCP mode is the default. In this mode, a full-duplex connection is established between clients and servers, and no layer 7 examination will be performed
-Layer4 log format [img]
-Layer7 log format [img]
+![Layer4 log format](img/layer4-logformat.png)
+![Layer7 log format](img/layer7-logformat.png)
 And in this assignment the logs in log files were mixed with both layer 4 and layer 7 log formats 
 
 Also HAProxy provides **severity** levels in the same way that syslog provides these in system logs which can be seen below:
-loglevels [img]
+![Log levels](img/loglevels.png)
 
 Furthermore **service times** are provided in HAProxy logs so it is possible to calculate average server response time
 
-this project is mainly based on the functionality of **"grep"** commands & subcommands 
+this project is mainly based on the functionality of **"grep"** commands & subcommands to take out HTTP status & timers and log levels
 
-A sample output of this script
+A sample output of this script :
+![Output](img/ouput.png)
