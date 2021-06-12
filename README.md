@@ -20,5 +20,12 @@ Furthermore **service times** are provided in HAProxy logs so it is possible to 
 
 this project is mainly based on the functionality of **"grep"** commands & subcommands to take out HTTP status & timers and log levels and it is precieved that HAProxy logs are provided in zip files in the same directory
 
+In order to run the script make sure that you put all the zipped haproxy log files in the same directory of the script then:
+
+```
+chmod +x script.sh
+./script.sh
+```
+
 A sample output of this script :
 ![Output](img/output.jpeg)
